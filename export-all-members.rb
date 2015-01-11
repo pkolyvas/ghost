@@ -9,7 +9,7 @@ members = Octokit.org_members "github"
 
 require "csv"
 
-CSV.open("export.csv", "wb") do |csv|
+CSV.open("export-all.csv", "wb") do |csv|
   members.each do |m|
     csv << [m[:id], m[:login]] # etc
   end
