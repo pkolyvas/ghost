@@ -6,6 +6,8 @@ First, install Octokit:
 $ bundle install
 ```
 
+Replace `<org-username>` with the username of your organization in `export-all-members.rb` and/or `export-all-members-with-2fa-disabled.rb`.
+
 Then export all members:
 
 ```shell
