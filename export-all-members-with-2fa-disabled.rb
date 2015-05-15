@@ -3,7 +3,7 @@
 require "octokit"
 
 Octokit.auto_paginate = true
-members = Octokit.org_members "github", :filter => "2fa_disabled"
+members = Octokit.org_members "<org-username>", :filter => "2fa_disabled"
 
 # Then, for example:
 

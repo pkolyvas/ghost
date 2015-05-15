@@ -3,7 +3,7 @@
 require "octokit"
 
 Octokit.auto_paginate = true
-members = Octokit.org_members "github"
+members = Octokit.org_members "<org-username>"
 
 # Then, for example:
 
