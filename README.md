@@ -3,9 +3,9 @@
 Get set up:
 
 ```shell
-git clone https://gist.github.com/11404512.git
-mv 11404512 export-members
-cd export-members 
+$ git clone https://gist.github.com/11404512.git
+$ mv 11404512 export-members
+$ cd export-members 
 ```
 
 Bundle (we're going to use [Octokit](https://github.com/octokit/octokit.rb)):
