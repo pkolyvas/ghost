@@ -3,7 +3,7 @@
 Get set up:
 
 ```shell
-$ git clone https://gist.github.com/11404512.git export-members; cd export-members 
+$ git clone https://gist.github.com/0660d80fb3e1f3a5158f3764cd0cef36.git export-members; cd export-members 
 ```
 
 Bundle (we're going to use [Octokit](https://github.com/octokit/octokit.rb)):
