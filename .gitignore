@@ -1,2 +1,3 @@
+.github-token
 *.csv
 Gemfile.lock

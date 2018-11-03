@@ -1,5 +1,7 @@
 # Set OCTOKIT_ACCESS_TOKEN to authenticate
 
+ENV['OCTOKIT_ACCESS_TOKEN']
+
 require "octokit"
 
 Octokit.auto_paginate = true
