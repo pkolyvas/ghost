@@ -1,6 +1,7 @@
 # Set OCTOKIT_ACCESS_TOKEN to authenticate
 
 ENV['OCTOKIT_ACCESS_TOKEN']
+ENV['GHOST_ORG']
 
 require "octokit"
 
