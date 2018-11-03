@@ -4,10 +4,9 @@ GHOST is a set of simple ruby scripts which leverage [Octokit](https://github.co
 
 You're here because you need to make lists. These simple scripts will allow you to produce list of:
 - Users in a GitHub Org
-- Org teams and their owner
+- Org teams 
 - Users on teams in the Org
 - Repos for teams in the Org
-- Per Org repo user list 
 
 Hopefully that's enough of a blueprint to help you get any other lists generated. 
 
