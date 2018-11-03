@@ -2,7 +2,7 @@
 
 GHOST is a set of simple ruby scripts which leverage [Octokit](https://github.com/octokit/octokit.rb)) in order to produce compliance or auditing... are you bored yet? I am.
 
-You need to make lists. These simple scripts will allow you to produce list of:
+You're here because you need to make lists. These simple scripts will allow you to produce list of:
 - Users in a GitHub Org
 - Org teams and their owner
 - Users on teams in the Org
