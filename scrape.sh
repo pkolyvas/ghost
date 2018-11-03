@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 echo "Scraping for Membership List..."
 bundle exec ruby list-org-members.rb
 echo "Done."
@@ -8,7 +10,7 @@ echo "Scraping for Organization Teams..."
 bundle exec ruby list-org-teams.rb
 echo "Done."
 echo ""
-echo "Scraping for Organization Repositorries..."
+echo "Scraping for Organization Repositories..."
 bundle exec ruby list-org-repos.rb
 echo "Done."
 echo ""

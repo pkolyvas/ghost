@@ -10,7 +10,9 @@ You're here because you need to make lists. These simple scripts will allow you 
 
 Hopefully that's enough of a blueprint to help you get any other lists generated. 
 
-Requirements:
+This tool was pilfered and modified from the following Gist https://gist.github.com/jdennes/11404512
+
+## Requirements:
 - install bundle via gem (on OS X you'll need `sudo`)
 - Membership in the organization you'd like to scrape
 
