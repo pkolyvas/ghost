@@ -1,6 +1,6 @@
 # The GitHub Org Scrape Tool
 
-GHOST is a set of simple ruby scripts which leverage [Octokit](https://github.com/octokit/octokit.rb)) in order to produce compliance or auditing... are you bored yet? I am.
+GHOST is a set of simple ruby scripts which leverage [Octokit](https://github.com/octokit/octokit.rb) in order to produce compliance or auditing... are you bored yet? I am.
 
 You're here because you need to make lists. These simple scripts will allow you to produce list of:
 - Users in a GitHub Org
@@ -11,9 +11,9 @@ You're here because you need to make lists. These simple scripts will allow you 
 Hopefully that's enough of a blueprint to help you get any other lists generated. 
 
 Requirements:
-- install bundle via gem (on OS X you'll need sudo)
+- install bundle via gem (on OS X you'll need `sudo`)
 
-# Usage:
+## Installatoin:
 
 Get set up:
 
@@ -27,18 +27,26 @@ Bundle (we're going to use [Octokit](https://github.com/octokit/octokit.rb)):
 $ bundle install
 ```
 
-Replace `<org-username>` with the username of your organization in `export-all-members.rb` and/or `export-all-members-with-2fa-disabled.rb`.
+## Configuration
 
-Then export all members:
+Set environment variables which correspond to your [GitHub Access Token](https://github.com/settings/tokens) and the name of the [Organization](https://github.com/settings/organizations) you wish to scrape.
 
 ```shell
-$ OCTOKIT_ACCESS_TOKEN=<yourtoken> bundle exec ruby export-all-members.rb
-$ cat export-all.csv
+set -x -g OCTOKIT_ACCESS_TOKEN=my_token
+set -x -g GHOST_ORG=my_org
 ```
 
-or, export members with 2FA disabled:
+or if you use `bash`
 
 ```shell
-$ OCTOKIT_ACCESS_TOKEN=<yourtoken> bundle exec ruby export-all-members-with-2fa-disabled.rb
-$ cat export-2fa-disabled.csv
+export OCTOKIT_ACCESS_TOKEN=my_token
+export GHOST_ORG=my_org
+```
+
+## User Guide
+
+Then create the default lists:
+
+```shell
+$ ./scrape.sh
 ```
