@@ -56,4 +56,4 @@ $ ./scrape.sh
 
 ## To Do
 
-The most complex script (not that complex but I'm tired) is to produce an array of all the members in an org and then test each repo for membership. There does not appear to be an easier method to do this. I'm not sure if being a member of an org (and not on the teams themselves provides access to this dataset).
+The most complex script (not that complex but I'm tired) is to produce an array of all the members in an org and then test each repo for membership. There does not appear to be an easier method to do this. I'm not sure if being a member of an org. and not being on the teams themselve, provides access to this dataset.
