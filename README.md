@@ -35,8 +35,8 @@ $ bundle install
 Set environment variables which correspond to your [GitHub Access Token](https://github.com/settings/tokens) and the name of the [Organization](https://github.com/settings/organizations) you wish to scrape.
 
 ```shell
-set -x -g OCTOKIT_ACCESS_TOKEN=my_token
-set -x -g GHOST_ORG=my_org
+set -x -g OCTOKIT_ACCESS_TOKEN my_token
+set -x -g GHOST_ORG my_org
 ```
 
 or if you use `bash`
