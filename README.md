@@ -13,7 +13,7 @@ Hopefully that's enough of a blueprint to help you get any other lists generated
 This tool was pilfered and modified from the following Gist https://gist.github.com/jdennes/11404512
 
 ## Requirements:
-- install bundle via gem (on OS X you'll need `sudo`)
+- install bundle via gem (on OS X you'll need `sudo gem install bundle`)
 - Membership in the organization you'd like to scrape
 
 ## Installation:
