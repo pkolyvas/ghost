@@ -35,8 +35,8 @@ $ bundle install
 Set environment variables which correspond to your [GitHub Access Token](https://github.com/settings/tokens) and the name of the [Organization](https://github.com/settings/organizations) you wish to scrape.
 
 ```shell
-set -x -g OCTOKIT_ACCESS_TOKEN=my_token
-set -x -g GHOST_ORG=my_org
+set -x -g OCTOKIT_ACCESS_TOKEN my_token
+set -x -g GHOST_ORG my_org
 ```
 
 or if you use `bash`
@@ -56,4 +56,4 @@ $ ./scrape.sh
 
 ## To Do
 
-The most complex script (not that complex but I'm tired) is to produce an array of all the members in an org and then test each repo for membership. There does not appear to be an easier method to do this. I'm not sure if being a member of an org (and not on the teams themselves provides access to this dataset).
+The most complex script (not that complex but I'm tired) is to produce an array of all the members in an org and then test each repo for membership. There does not appear to be an easier method to do this. I'm not sure if being a member of an org, and not being on the teams themselves, provides access to this dataset.
